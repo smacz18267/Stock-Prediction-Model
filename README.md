@@ -49,7 +49,7 @@ stock-prediction-model
 
 ## 🛠️ Setup and Installation
 
-### **1 Clone the Repository**
+### **1. Clone the Repository**
 
 ```bash
 git clone https://github.com/your-username/stock-prediction-model.git
