@@ -21,7 +21,7 @@ This repository contains an advanced stock prediction system that uses a deep-le
 This project implements a supervised learning model using a hybrid architecture that combines:
 - Convolutional layers (Conv1D) for local feature extraction,
 - Bidirectional LSTM layers for capturing temporal dependencies,
-- A custom attention mechanism to weight important time steps,
+- A custom attention mechanism to weigh important time steps,
 - Fully connected layers to produce a final stock price prediction.
 
 Predictions are stored in a PostgreSQL database using SQLAlchemy, and the model is exposed via a FastAPI backend. A simple HTML/CSS/JavaScript frontend is provided to interact with the API.
@@ -46,4 +46,14 @@ stock-prediction-model
     ├── app.js                # JavaScript to call the backend API
     ├── style.css             # Basic styling for the frontend
 ```
+
+## 🛠️ Setup and Installation
+
+### **1️⃣ Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/stock-prediction-model.git
+cd stock-prediction-model
+```
+
 
