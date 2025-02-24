@@ -74,5 +74,14 @@ pip install -r requirements.txt
 
 #### Set Up PostgreSQL Database
 
+1. Make sure you have PostgreSQL installed.
+2. Create a new database:
+```bash
+CREATE DATABASE stock_db;
+```
+3. Grant privileges to your PostgreSQL user:
+```bash
+GRANT ALL PRIVILEGES ON DATABASE stock_db TO your_username;
+```
 
 
