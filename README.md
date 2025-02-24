@@ -99,7 +99,7 @@ uvicorn app:app --reload
 
 The server will start at http://127.0.0.1:8000, and API documentation will be available at http://127.0.0.1:8000/docs.
 
-### **2. Frontend Setup**
+### **3. Frontend Setup**
 
 #### Navigate to the Frontend Directory
 ```bash
@@ -113,3 +113,24 @@ python -m http.server 8080
 ```
 
 Then, open http://localhost:8080 in your browser.
+
+## API Endpoints
+
+### **POST /predict**
+- Description: Predicts the next stock price for a given ticker.
+- Request Body:
+
+```bash
+{
+  "ticker": "AAPL"
+}
+```
+- Response:
+```bash
+{
+  "ticker": "AAPL",
+  "predicted_price": 123.45,
+  "timestamp": "2025-02-24T09:54:10.081924"
+}
+```
+Test the API at http://127.0.0.1:8000/docs.  
