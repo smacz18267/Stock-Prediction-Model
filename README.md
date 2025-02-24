@@ -12,7 +12,7 @@ This repository contains an advanced stock prediction system that uses a deep-le
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
 - [API Endpoints](#api-endpoints)
-- [Model Architecture](#model-architecture)
+- [📌 Model Architecture](#model-architecture)
 - [Future Improvements](#future-improvements)
 - [License](#license)
 
@@ -134,3 +134,11 @@ Then, open http://localhost:8080 in your browser.
 }
 ```
 Test the API at http://127.0.0.1:8000/docs.  
+
+## 📌 Model Architecture
+
+This model processes historical stock data using:
+- Conv1D Layers: Extracts local features from the stock price time series.
+- Bidirectional LSTM Layers: Captures long-term dependencies in stock movements.
+- Custom Attention Mechanism: Helps focus on relevant historical patterns.
+- Dense Layers: Produces the final predicted stock price.
