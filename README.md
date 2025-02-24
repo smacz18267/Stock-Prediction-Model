@@ -6,15 +6,15 @@ This repository contains an advanced stock prediction system that uses a deep-le
 
 ## Table of Contents
 
-- [Overview]
-- [Project Structure]
-- [Setup and Installation]
-  - [Backend Setup]
-  - [Frontend Setup]
-- [API Endpoints]
-- [Model Architecture]
-- [Future Improvements]
-- [License]
+- Overview
+- 📁 Project Structure
+- Setup and Installation
+  - Backend Setup
+  - Frontend Setup
+- 🎯API Endpoints
+- 📌 Model Architecture
+- Future Improvements
+- License
 
 ## Overview
 
@@ -26,7 +26,7 @@ This project implements a supervised learning model using a hybrid architecture 
 
 Predictions are stored in a PostgreSQL database using SQLAlchemy, and the model is exposed via a FastAPI backend. A simple HTML/CSS/JavaScript frontend is provided to interact with the API.
 
-## Project Structure
+## 📁 Project Structure
 ```
 stock-prediction-model
 ├── backend/
@@ -113,8 +113,8 @@ python -m http.server 8080
 ```
 
 Then, open http://localhost:8080 in your browser.
-
-## API Endpoints
+ 
+## 🎯 API Endpoints
 
 ### **POST /predict**
 - Description: Predicts the next stock price for a given ticker.
