@@ -83,5 +83,19 @@ CREATE DATABASE stock_db;
 ```bash
 GRANT ALL PRIVILEGES ON DATABASE stock_db TO your_username;
 ```
+#### Configure .env File
 
+Create a .env file inside the backend folder:
+
+```bash
+DATABASE_URL=postgresql://your_username:your_password@localhost:5432/stock_db
+```
+Replace your_username and your_password with your actual PostgreSQL credentials.
+
+#### Run the FastAPI Server
+```bash
+uvicorn app:app --reload
+```
+
+The server will start at http://127.0.0.1:8000, and API documentation will be available at http://127.0.0.1:8000/docs.
 
