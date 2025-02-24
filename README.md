@@ -27,6 +27,8 @@ This project implements a supervised learning model using a hybrid architecture 
 Predictions are stored in a PostgreSQL database using SQLAlchemy, and the model is exposed via a FastAPI backend. A simple HTML/CSS/JavaScript frontend is provided to interact with the API.
 
 ## Project Structure
+```
+stock-prediction-model
 ├── backend/
 │   ├── .env                  # Environment variables (e.g., DATABASE_URL)
 │   ├── app.py                # Main FastAPI application
@@ -43,4 +45,5 @@ Predictions are stored in a PostgreSQL database using SQLAlchemy, and the model 
     ├── index.html            # Simple HTML interface for the stock prediction app
     ├── app.js                # JavaScript to call the backend API
     ├── style.css             # Basic styling for the frontend
+```
 
