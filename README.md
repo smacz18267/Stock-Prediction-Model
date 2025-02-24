@@ -47,7 +47,7 @@ stock-prediction-model
     ├── style.css             # Basic styling for the frontend
 ```
 
-## 🛠️ Setup and Installation
+## Setup and Installation
 
 ### **1. Clone the Repository**
 
