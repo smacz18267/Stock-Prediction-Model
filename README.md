@@ -144,7 +144,7 @@ This model processes historical stock data using:
 
 ## 🔥 Future Improvements
 
-✅ Data Enrichment: Incorporate real-world news sentiment, macroeconomic indicators, or alternative datasets.
-✅ Advanced Model Architectures: Experiment with transformer-based models or ensemble methods.
-✅ Hyperparameter Tuning: Implement systematic tuning with tools like Keras Tuner.
-✅ Backtesting & Risk Management: Develop frameworks to validate the model’s effectiveness in real-world trading.
+- ✅ Data Enrichment: Incorporate real-world news sentiment, macroeconomic indicators, or alternative datasets.
+- ✅ Advanced Model Architectures: Experiment with transformer-based models or ensemble methods.
+- ✅ Hyperparameter Tuning: Implement systematic tuning with tools like Keras Tuner.
+- ✅ Backtesting & Risk Management: Develop frameworks to validate the model’s effectiveness in real-world trading.
