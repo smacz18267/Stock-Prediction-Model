@@ -56,4 +56,23 @@ git clone https://github.com/your-username/stock-prediction-model.git
 cd stock-prediction-model
 ```
 
+### **2. Backend Setup**
+
+#### Activate Virtual Environment (Optional but Recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+#### Install Dependencies
+
+```bash
+cd backend
+pip install -r requirements.txt
+```
+
+#### Set Up PostgreSQL Database
+
+
 
