@@ -99,3 +99,17 @@ uvicorn app:app --reload
 
 The server will start at http://127.0.0.1:8000, and API documentation will be available at http://127.0.0.1:8000/docs.
 
+### **2. Frontend Setup**
+
+#### Navigate to the Frontend Directory
+```bash
+cd frontend
+```
+
+#### Open the Frontend in Your Browser
+You can open the index.html file directly or serve it using a local server:
+```bash
+python -m http.server 8080
+```
+
+Then, open http://localhost:8080 in your browser.
