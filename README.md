@@ -6,15 +6,15 @@ This repository contains an advanced stock prediction system that uses a deep-le
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Setup and Installation](#setup-and-installation)
-  - [Backend Setup](#backend-setup)
-  - [Frontend Setup](#frontend-setup)
-- [API Endpoints](#api-endpoints)
-- [📌 Model Architecture](#📌model-architecture)
-- [Future Improvements](#future-improvements)
-- [License](#license)
+- [Overview]
+- [Project Structure]
+- [Setup and Installation]
+  - [Backend Setup]
+  - [Frontend Setup]
+- [API Endpoints]
+- [Model Architecture]
+- [Future Improvements]
+- [License]
 
 ## Overview
 
