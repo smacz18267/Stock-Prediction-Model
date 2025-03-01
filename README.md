@@ -12,7 +12,7 @@ This repository contains an advanced stock prediction system that uses a deep-le
   - Backend Setup
   - Frontend Setup
 - 🎯API Endpoints
-- 📌 Model Architecture
+- 📌 Model Architecture ii
 - 🔥 Future Improvements
 
 ## Overview
